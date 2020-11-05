@@ -1,0 +1,24 @@
+.contact-container {
+  display: flex;
+  margin: 10px 0;
+}
+
+.avatar {
+  display: inline-block;
+}
+
+.details {
+  padding: 0 10px;
+}
+
+.name span:first-child {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.email span:first-child {
+  display: inline-block;
+  margin-right: 10px;
+}

@@ -1,0 +1,38 @@
+.field {
+  display: flex;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  padding: 0.2rem;
+
+  flex-basis: 10%;
+  font-size: larger;
+}
+
+.input {
+  display: flex;
+  padding: 0.2rem;
+  flex-basis: 30%;
+}
+
+.input input {
+  flex-basis: 100%;
+  line-height: 2.5;
+  font-size: large;
+}
+
+.button-container {
+  display: flex;
+  width: 600px;
+  padding: 1rem;
+  justify-content: flex-end;
+}
+
+.button-container button {
+  padding: 1rem 2rem;
+  margin-left: 0.8rem;
+  font-weight: bolder;
+  font-size: large;
+}
